@@ -11,4 +11,5 @@ export function star(minutes, seconds){
     timer.updatDisplay()
 
     events.registerControls()
+    events.setMinutes()
 } 
